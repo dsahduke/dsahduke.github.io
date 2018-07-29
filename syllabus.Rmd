@@ -1,0 +1,25 @@
+---
+title: "Syllabus"
+---
+
+
+The goal of this course is for students to learn the tools needed to succeed in a modern data science environment. We will cover some topics at a high-level, focusing on building intuition, as well as dive into some important topics in detail. By the end of the course, students should be able to take a data science project from asking the right questions, through the data processing and modeling, and into a concise and well-delivered presentation that highlights their work. Practical skills that will be taught include:
+
+1.	Data Science Programming (Python or R)
+2.	Data Visualization (Seaborn, ggplot2)
+3.	Literate Programming (Jupyter Notebooks, RMarkdown)
+4.	Software Containerization (Docker)
+5.	Modeling (Scikit-learn, Various R packages)
+6.	Delivering effective presentations
+
+In addition, the aim of this course is not to be exhaustive. It is impossible to cover all aspects of data science and healthcare in a single semester course. Rather, it aims to develop the data science mindset, as well as empower you to be able to seek the answers to questions that you may have on your own in an effective way.
+
+# Course Logistics
+## Prerequisites
+The prerequisites for this course are an introductory computer science course, and an introductory statistics/probability course. For undergraduate students a 100 or 200 level computer science course as well as stat 111 or higher is required. These prerequisites are strongly encouraged. However, self-motivated learners may be able to learn the necessary skills to take this course and we will spend 1 week reviewing core concepts. If you do not have these pre-requisites, it is up to you to make sure that you spend the extra time picking up the skills necessary to follow the course content.
+
+An understanding of basic calculus is required. We will mostly be discussing this in the context of finding maxima and minima and in some aspects of probability theory.
+
+## Course Schedule:
+
+

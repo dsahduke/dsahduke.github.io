@@ -1,0 +1,15 @@
+name: "Data Science for Health"
+navbar:
+  title: "Data Science for Health"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Syllabus"
+      href: syllabus.html
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    include:
+      after_body: footer.html
+
