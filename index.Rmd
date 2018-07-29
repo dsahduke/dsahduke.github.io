@@ -2,7 +2,7 @@
 title: "Data Science for Health"
 ---
 
-## What is data science?
+### What is data science?
 Data Science is a rapidly growing, interdisciplinary field that enables practitioners to glean insights from various forms of data. This course aims to teach the fundamentals of data science, as well as introduce you to some of the tools that enable modern data science. We will cover the full cycle of data science, including:
 
 1.	Asking appropriate questions/Generating hypotheses
@@ -13,6 +13,6 @@ Data Science is a rapidly growing, interdisciplinary field that enables practiti
 6.	Reporting on results in reproducible fashion
 7.	Presenting results verbally to an audience
 
-## Why health?
+### Why health?
 
 The digitization of healthcare has happened relatively recently. Many Electronic Health Records (EHRs) were adopted within the past decade, and experience working with the data is rare. However, the potential for modern data science to revolutionize the way that healthcare is delivered and optimized is exciting. Recent developments include being able to predict hospital mortality, readmissions, and other outcomes; predict the onset of hospital infection; improve palliative care. In addition, the analysis of medical images and clinical notes are showing promise. This course will focus on healthcare applications of data science, including various clinical ontologies, but also serves as a general overview of data science tools and their applications.
