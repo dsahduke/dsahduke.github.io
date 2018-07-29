@@ -1,4 +1,5 @@
 name: "Data Science for Health"
+output_dir: "."
 navbar:
   title: "Data Science for Health"
   left:
