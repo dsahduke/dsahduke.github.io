@@ -1,7 +1,7 @@
-name: "Data Science for Health"
+name: "Data Science and Health"
 output_dir: "."
 navbar:
-  title: "Data Science for Health"
+  title: "Data Science and Health"
   left:
     - text: "Home"
       href: index.html

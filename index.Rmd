@@ -1,8 +1,8 @@
 ---
-title: "Data Science for Health"
+title: "Data Science and Health"
 ---
 
-### What is data science?
+### About this course
 Data Science is a rapidly growing, interdisciplinary field that enables practitioners to glean insights from various forms of data. This course aims to teach the fundamentals of data science, as well as introduce you to some of the tools that enable modern data science. We will cover the full cycle of data science, including:
 
 1.	Asking appropriate questions/Generating hypotheses
