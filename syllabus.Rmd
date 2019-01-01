@@ -2,24 +2,71 @@
 title: "Syllabus"
 ---
 
+### Instructor Information
 
-The goal of this course is for students to learn the tools needed to succeed in a modern data science environment. We will cover some topics at a high-level, focusing on building intuition, as well as dive into some important topics in detail. By the end of the course, students should be able to take a data science project from asking the right questions, through the data processing and modeling, and into a concise and well-delivered presentation that highlights their work. Practical skills that will be taught include:
+```{r, echo=FALSE}
+instructors <- c("Xiling Shen", "Michael Gao", "Nick Giroux", "Anders Dohlman")
+emails <- c("xiling.shen@duke.edu", "michael.gao@duke.edu", "nick.giroux@duke.edu", "anders.dohlman@duke.edu")
+role <- c("Professor", "Instructor", "TA", "TA")
 
-1.	Data Science Programming (Python or R)
-2.	Data Visualization (Seaborn, ggplot2)
-3.	Literate Programming (Jupyter Notebooks, RMarkdown)
-4.	Software Containerization (Docker)
-5.	Modeling (Scikit-learn, Various R packages)
-6.	Delivering effective presentations
+display_table <- data.frame(cbind(instructors, emails, role))
+names(display_table) <- c("Instructor", "Email", "Role")
+knitr::kable(display_table)
+```
 
-In addition, the aim of this course is not to be exhaustive. It is impossible to cover all aspects of data science and healthcare in a single semester course. Rather, it aims to develop the data science mindset, as well as empower you to be able to seek the answers to questions that you may have on your own in an effective way.
+### Class Times: 
+**Tuesdays and Thursdays 3:05-4:20PM**
 
-# Course Logistics
+### Class Location:
+**Hudson Hall 208**
+
+## Course Logistics
 ### Prerequisites
-The prerequisites for this course are an introductory computer science course, and an introductory statistics/probability course. For undergraduate students a 100 or 200 level computer science course as well as stat 111 or higher is required. These prerequisites are strongly encouraged. However, self-motivated learners may be able to learn the necessary skills to take this course and we will spend 1 week reviewing core concepts. If you do not have these pre-requisites, it is up to you to make sure that you spend the extra time picking up the skills necessary to follow the course content.
+The prerequisites for this course are an introductory computer science course, and an introductory statistics/probability course. For undergraduate students a 100 or 200 level computer science course as well as stat 111 or higher is required. These prerequisites are *strongly encouraged*. However, self-motivated learners may be able to learn the necessary skills to take this course and we will spend 1 week reviewing core concepts. If you do not have these pre-requisites, it is up to you to make sure that you spend the extra time picking up the skills necessary to follow the course content.
 
 An understanding of basic calculus is required. We will mostly be discussing this in the context of finding maxima and minima and in some aspects of probability theory.
 
-### Course Schedule:
+### Required Text 
+All texts used in this course will be provided. There are no required textbooks.  
+
+### Software 
+We will be using Github as the primary way to submit homework in this class. If you do not have a github account, please create one at http://www.github.com.
+
+You can find all of the installation instructions for software necessary for the course here:
+
+ * [SOFTWARE INSTALL INSTRUCTIONS](https://github.com/dsahduke/software_install_instructions)
+
+### Communications
+Communication will be done primarily through Sakai. We will also send email updates about important announcements.  
+
+### Grading 
+The final grade for the class will be determined from the following constituents:
+
+ * 50% Problem Sets / Programming Assignments
+ * 20% Midterm Project 
+ * 30% Final Project 
+	 
+	 
+### Late Work Policy  
+Late assignments will be penalized 10% it is turned in within 24 hours after the due date, 20% if between 24 hours and 48 hours, and will not be accepted afterwards. 
+
+
+### Academic Integrity
+I expect for all students to adhere to the Duke Community Standard https://studentaffairs.duke.edu/conduct/about-us/duke-community-standard. While I encourage group work and group studying, you must turn in your own work and copying homework solutions or other student’s work will result in a grade of 0 for the assignment. This class has group assignments for the final project. If you feel a team member is not contributing, please let me know.
+
+
+### Problem Sets/Programming Assignments
+Each of the skills that we will be covering throughout this course will have an associated problem set or programming assignment (or combined assignment). The purpose of these exercises is to reinforce material taught in lecture as well as explore applications that will not be covered in the lectures. These assignments will be assigned as we reach topics throughout the course.  
+
+### Midterm Project  
+
+The midterm project will be focused on clinical risk prediction algorithms. You will be implementing your own classifier along with the associated solver. Then, you will apply this algorithm to the MIMIC-III dataset to create your own clinical risk algorithm. You will then compare its performance to other well-known risk prediction models and write a report explaining the differences. More information will be released at a later date.
+
+
+### Final project
+The final project will make use of all of the skills that you will learn throughout the course. You will write a proposal about a data science question that you want to answer using a clinical dataset and then step through the entire data science process including a verbal presentation to the class. More information about this project will be released later in the semester.
+
+## Course Schedule
+
 
 

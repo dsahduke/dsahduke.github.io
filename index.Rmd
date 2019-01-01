@@ -1,8 +1,9 @@
 ---
-title: "Data Science and Health"
+title: 'BME 590: Data Science and Health'
 ---
 
-### About this course
+
+## About this course
 Data Science is a rapidly growing, interdisciplinary field that enables practitioners to glean insights from various forms of data. This course aims to teach the fundamentals of data science, as well as introduce you to some of the tools that enable modern data science. We will cover the full cycle of data science, including:
 
 1.	Asking appropriate questions/Generating hypotheses
@@ -15,4 +16,15 @@ Data Science is a rapidly growing, interdisciplinary field that enables practiti
 
 ### Why health?
 
-The digitization of healthcare has happened relatively recently. Many Electronic Health Records (EHRs) were adopted within the past decade, and experience working with the data is rare. However, the potential for modern data science to revolutionize the way that healthcare is delivered and optimized is exciting. Recent developments include being able to predict hospital mortality, readmissions, and other outcomes; predict the onset of hospital infection; improve palliative care. In addition, the analysis of medical images and clinical notes are showing promise. This course will focus on healthcare applications of data science, including various clinical ontologies, but also serves as a general overview of data science tools and their applications.
+The digitization of healthcare has happened relatively recently. Many Electronic Health Records (EHRs) were adopted within the past decade, and experience working with the data is rare. However, the potential for modern data science to revolutionize the way that healthcare is delivered and optimized is exciting. Recent developments include being able to [predict hospital mortality, readmissions, and other outcomes](https://arxiv.org/ftp/arxiv/papers/1801/1801.07860.pdf); [predict the onset of hospital infection](https://arxiv.org/pdf/1706.04152.pdf); and [improve palliative care](https://ai.stanford.edu/~avati/bibm17.pdf). In addition, the analysis of medical images and clinical notes are showing promise. This course will focus on healthcare applications of data science, including various clinical ontologies, but also serves as a general overview of data science tools and their applications.
+
+## Goals
+The goal of this course is for students to learn the tools needed to succeed in a modern data science environment. We will cover some topics at a high-level, focusing on building intuition, as well as dive into some important topics in detail. By the end of the course, students should be able to take a data science project from asking the right questions, through the data processing and modeling, and into a concise and well-delivered presentation that highlights their work. Practical skills that will be taught include:
+
+1.	Data Science Programming (Python)
+2.	Data Visualization (Seaborn, matplotlib)
+3.	Literate Programming (Jupyter Notebooks)
+4.	Software Containerization (Docker)
+5.	Modeling (Scikit-learn)
+6.	Delivering effective presentations
+In addition, the aim of this course is not to be _exhaustive_. It is impossible to cover all aspects of data science and healthcare in a single semester course. Rather, it aims to develop the data science _mindset_, as well as empower you to be able to seek the answers to questions that you may have on your own in an effective way.
