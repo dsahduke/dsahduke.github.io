@@ -35,7 +35,9 @@ You can find all of the installation instructions for software necessary for the
  * [SOFTWARE INSTALL INSTRUCTIONS](https://github.com/dsahduke/software_install_instructions)
 
 ### Communications
-Communication will be done primarily through Sakai. We will also send email updates about important announcements.  
+Communication will be done primarily through Sakai. We will also send email updates about important announcements. In addition to this, we will have a Piazza site. The name for the course on Piazza is BME 590-09: Special Topics: Data Science and Health. You will receive an invite if you are registered for the course. If you do not receive an invite, please let us know.
+
+Sakai will be used for assignment submission (in part - click on the 'How to Submit Homework' tab to learn more) and grade management. Piazza will be a place to have discussions and ask questions of the instructors/TAs.
 
 ### Grading 
 The final grade for the class will be determined from the following constituents:
