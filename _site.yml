@@ -7,6 +7,10 @@ navbar:
       href: index.html
     - text: "Syllabus"
       href: syllabus.html
+    - text: "Getting Started"
+      href: getting_started.html
+    - text: "How to submit homework"
+      href: submitting_homework.html
 output:
   html_document:
     theme: flatly

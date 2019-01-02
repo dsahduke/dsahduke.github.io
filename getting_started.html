@@ -11,7 +11,7 @@
 
 
 
-<title>About this course</title>
+<title>Getting Started</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -186,6 +186,12 @@ $(document).ready(function () {
 <li>
   <a href="syllabus.html">Syllabus</a>
 </li>
+<li>
+  <a href="getting_started.html">Getting Started</a>
+</li>
+<li>
+  <a href="submitting_homework.html">How to submit homework</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -198,37 +204,42 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About this course</h1>
+<h1 class="title toc-ignore">Getting Started</h1>
 
 </div>
 
 
-<p>Data Science is a rapidly growing, interdisciplinary field that enables practitioners to glean insights from various forms of data. This course aims to teach the fundamentals of data science, as well as introduce you to some of the tools that enable modern data science. We will cover the full cycle of data science, including:</p>
-<ol style="list-style-type: decimal">
-<li>Asking appropriate questions/Generating hypotheses</li>
-<li>Extracting raw data</li>
-<li>Performing cleaning, reshaping, and exploratory data analysis</li>
-<li>Statistical and Machine Learning Models</li>
-<li>Assessing model results</li>
-<li>Reporting on results in reproducible fashion</li>
-<li>Presenting results verbally to an audience</li>
-</ol>
-<div id="why-health" class="section level3">
-<h3>Why health?</h3>
-<p>The digitization of healthcare has happened relatively recently. Many Electronic Health Records (EHRs) were adopted within the past decade, and experience working with the data is rare. However, the potential for modern data science to revolutionize the way that healthcare is delivered and optimized is exciting. Recent developments include being able to <a href="https://arxiv.org/ftp/arxiv/papers/1801/1801.07860.pdf">predict hospital mortality, readmissions, and other outcomes</a>; <a href="https://arxiv.org/pdf/1706.04152.pdf">predict the onset of hospital infection</a>; and <a href="https://ai.stanford.edu/~avati/bibm17.pdf">improve palliative care</a>. In addition, the analysis of medical images and clinical notes are showing promise. This course will focus on healthcare applications of data science, including various clinical ontologies, but also serves as a general overview of data science tools and their applications.</p>
+<p>Welcome to BME 590: Data Science and Health. On this page, you will find all of the required information to get started with this course. This involves installing the necessary software to complete the course assignments and projects, signing up for Piazza (where you can ask questions about the course), signing up for Github (where you will submit assignments), and other general information.</p>
+<div id="software" class="section level2">
+<h2>Software</h2>
+<p>For software installation instructions, please refer to the following instructions:</p>
+<ul>
+<li><a href="https://github.com/dsahduke/software_install_instructions">SOFTWARE INSTALL INSTRUCTIONS</a></li>
+</ul>
+<p>Please make sure that you install the software noted in the link above as soon as possible so that we can identify any potential issues that you are having and resolve them as quickly as possible.</p>
 </div>
-<div id="goals" class="section level2">
-<h2>Goals</h2>
-<p>The goal of this course is for students to learn the tools needed to succeed in a modern data science environment. We will cover some topics at a high-level, focusing on building intuition, as well as dive into some important topics in detail. By the end of the course, students should be able to take a data science project from asking the right questions, through the data processing and modeling, and into a concise and well-delivered presentation that highlights their work. Practical skills that will be taught include:</p>
-<ol style="list-style-type: decimal">
-<li>Data Science Programming (Python)</li>
-<li>Data Visualization (Seaborn, matplotlib)</li>
-<li>Literate Programming (Jupyter Notebooks)</li>
-<li>Software Containerization (Docker)</li>
-<li>Modeling (Scikit-learn)</li>
-<li>Delivering effective presentations</li>
-</ol>
-<p>In addition, the aim of this course is not to be <em>exhaustive</em>. It is impossible to cover all aspects of data science and healthcare in a single semester course. Rather, it aims to develop the data science <em>mindset</em>, as well as empower you to be able to seek the answers to questions that you may have on your own in an effective way.</p>
+<div id="github" class="section level2">
+<h2>Github</h2>
+<p>If you do not have a github account, please sign up for one on <a href="https://www.github.com" class="uri">https://www.github.com</a>. We will be using github as our main way to distribute and complete assignments.</p>
+</div>
+<div id="piazza" class="section level2">
+<h2>Piazza</h2>
+<p>You should receive an invite to the Piazza page for this course shortly after the course begins. Please make sure that you create an account. Piazza will be the main way that you can ask questions about the course material to instructors, TAs, or fellow students. Take some time to familiarize yourself with how the website works so we can avoid any further confusion down the line. Here are some general guidelines to follow:</p>
+<div id="public-questions" class="section level3">
+<h3>Public questions:</h3>
+<p>On Piazza, you may ask two types of questions (Public &amp; Private). Public questions are for anything about the course content, policy, problem sets, etc that any student may be interested in knowing the answer. Please use public questions by default, as we prioritize our limited TA and instructor time answering public questions first, because the entire class can benefit from seeing the answer. As a student, <strong>YOU ARE ENCOURAGED TO ANSWER QUESTIONS!</strong> If you know the answer, or can provide extra information, feel free to edit the “student answer” portion of a post.</p>
+<p>If you do not wish to share your name with your classmates in connection with a question, you may choose to ask the question “anonymously”. Please note that the INSTRUCTORS can see your name, you are only anonymous to your classmates. [We will do our best not to use your names in our responses]</p>
+</div>
+<div id="private-questions" class="section level3">
+<h3>Private questions:</h3>
+<p>Private questions are used when you have an issue that is specific to you, such as a question about a grade, that other students would not benefit from. Also, we ask that you NOT post code or solutions to problems publicly, so if you need to ask a question about a bit of code that you are working on for a project or problem set, you should post that privately to only the instructors.</p>
+<p>In addition to using piazza, we will have office hours. We will send out the schedule for office hours when we set them.</p>
+</div>
+</div>
+<div id="mimic-iii-and-physionet" class="section level2">
+<h2>MIMIC-III and Physionet</h2>
+<p>Because this course deals with health record data, you will need to go through the process of obtaining access to the MIMIC-III database. Instructions on how to do this are located below. This will be your first assignment for the course.</p>
+<p><a href="https://github.com/dsahduke/hw0_physionet/blob/master/Assignment%200%20-%20Physionet%20and%20MIMIC-III.md">Link to Homework 0: MIMIC-III and Physionet</a></p>
 </div>
 
 <p>Copyright &copy; 2018 Michael Gao. All rights reserved.</p>

@@ -11,7 +11,7 @@
 
 
 
-<title>About this course</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -186,6 +186,12 @@ $(document).ready(function () {
 <li>
   <a href="syllabus.html">Syllabus</a>
 </li>
+<li>
+  <a href="getting_started.html">Getting Started</a>
+</li>
+<li>
+  <a href="submitting_homework.html">How to submit homework</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -198,37 +204,36 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About this course</h1>
 
 </div>
 
 
-<p>Data Science is a rapidly growing, interdisciplinary field that enables practitioners to glean insights from various forms of data. This course aims to teach the fundamentals of data science, as well as introduce you to some of the tools that enable modern data science. We will cover the full cycle of data science, including:</p>
-<ol style="list-style-type: decimal">
-<li>Asking appropriate questions/Generating hypotheses</li>
-<li>Extracting raw data</li>
-<li>Performing cleaning, reshaping, and exploratory data analysis</li>
-<li>Statistical and Machine Learning Models</li>
-<li>Assessing model results</li>
-<li>Reporting on results in reproducible fashion</li>
-<li>Presenting results verbally to an audience</li>
-</ol>
-<div id="why-health" class="section level3">
-<h3>Why health?</h3>
-<p>The digitization of healthcare has happened relatively recently. Many Electronic Health Records (EHRs) were adopted within the past decade, and experience working with the data is rare. However, the potential for modern data science to revolutionize the way that healthcare is delivered and optimized is exciting. Recent developments include being able to <a href="https://arxiv.org/ftp/arxiv/papers/1801/1801.07860.pdf">predict hospital mortality, readmissions, and other outcomes</a>; <a href="https://arxiv.org/pdf/1706.04152.pdf">predict the onset of hospital infection</a>; and <a href="https://ai.stanford.edu/~avati/bibm17.pdf">improve palliative care</a>. In addition, the analysis of medical images and clinical notes are showing promise. This course will focus on healthcare applications of data science, including various clinical ontologies, but also serves as a general overview of data science tools and their applications.</p>
+<div id="programming-assignments" class="section level2">
+<h2>Programming Assignments</h2>
+<p>Most of the homework that you will have in this class will involve a programming assignment of some sort. In order to streamline the submission process for this class, as well as to make it easier to grade, we have decided to use github to store all code related to your assignment. Here is the process that you will use to submit your homework. We will also go over this submission process in class to make sure that everyone understands all of the submission processes.</p>
+<div id="create-a-repository" class="section level3">
+<h3>1. Create a repository</h3>
+<p>Each time an assignment is released, it will be made available via a link that will be sent out email and posted on sakai under the assignments tab. Once you have received the link, click on it and it should create your own repository with the starter code and instructions for the assignment. It should look something like this:</p>
+<div class="figure">
+<img src="assets/create_repository.png" />
+
 </div>
-<div id="goals" class="section level2">
-<h2>Goals</h2>
-<p>The goal of this course is for students to learn the tools needed to succeed in a modern data science environment. We will cover some topics at a high-level, focusing on building intuition, as well as dive into some important topics in detail. By the end of the course, students should be able to take a data science project from asking the right questions, through the data processing and modeling, and into a concise and well-delivered presentation that highlights their work. Practical skills that will be taught include:</p>
-<ol style="list-style-type: decimal">
-<li>Data Science Programming (Python)</li>
-<li>Data Visualization (Seaborn, matplotlib)</li>
-<li>Literate Programming (Jupyter Notebooks)</li>
-<li>Software Containerization (Docker)</li>
-<li>Modeling (Scikit-learn)</li>
-<li>Delivering effective presentations</li>
-</ol>
-<p>In addition, the aim of this course is not to be <em>exhaustive</em>. It is impossible to cover all aspects of data science and healthcare in a single semester course. Rather, it aims to develop the data science <em>mindset</em>, as well as empower you to be able to seek the answers to questions that you may have on your own in an effective way.</p>
+<p>Afterwards, you should now have access to a repository for you to access the homework code and assignments. Modify this code to complete the assignment and use the git workflow to submit your changes to the remote repository (We will cover this in class).</p>
+</div>
+<div id="submit-your-commit-hash-to-sakai" class="section level3">
+<h3>2. Submit your commit hash to Sakai</h3>
+<p>When you feel that you are finished with your assignment, you will need to submit what is known as your “commit hash” to sakai. When you feel that you are finished, go to your remote repository on github and click on the commit button:</p>
+<div class="figure">
+<img src="assets/commit.png" />
+
+</div>
+<p>Then, click the clipboard, (or the hash itself and copy the full hash) and paste that hash into the Sakai submisison box.</p>
+<div class="figure">
+<img src="assets/hash.png" />
+
+</div>
+<p>If you do not do this, we will take the last commit as of the deadline. If you are submitting late (see the Syllabus for late policy), please submit the hash that you would like us to grade at.</p>
+</div>
 </div>
 
 <p>Copyright &copy; 2018 Michael Gao. All rights reserved.</p>

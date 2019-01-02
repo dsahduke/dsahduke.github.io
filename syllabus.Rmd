@@ -1,8 +1,6 @@
 ---
-title: "Syllabus"
+title: "Instructor Information"
 ---
-
-### Instructor Information
 
 ```{r, echo=FALSE}
 instructors <- c("Xiling Shen", "Michael Gao", "Nick Giroux", "Anders Dohlman")
