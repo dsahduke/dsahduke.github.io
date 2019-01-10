@@ -4,7 +4,7 @@ title: "Instructor Information"
 
 ```{r, echo=FALSE}
 instructors <- c("Xiling Shen", "Michael Gao", "Nick Giroux", "Anders Dohlman")
-emails <- c("xiling.shen@duke.edu", "michael.gao@duke.edu", "nick.giroux@duke.edu", "anders.dohlman@duke.edu")
+emails <- c("xiling.shen@duke.edu", "michael.gao@duke.edu", "nicholas.giroux@duke.edu", "anders.dohlman@duke.edu")
 role <- c("Professor", "Instructor", "TA", "TA")
 
 display_table <- data.frame(cbind(instructors, emails, role))
@@ -17,6 +17,9 @@ knitr::kable(display_table)
 
 ### Class Location:
 **Hudson Hall 208**
+
+### Office Hours:
+Office hours will be held **Monday and Wednesday, 6-7PM in Fitzpatrick 1411**
 
 ## Course Logistics
 ### Prerequisites
