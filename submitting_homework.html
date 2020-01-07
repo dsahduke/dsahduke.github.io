@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>submitting_homework.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -96,6 +96,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,7 +113,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -130,6 +132,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,18 +190,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -210,28 +308,19 @@ $(document).ready(function () {
 
 <div id="programming-assignments" class="section level2">
 <h2>Programming Assignments</h2>
-<p>Most of the homework that you will have in this class will involve a programming assignment of some sort. In order to streamline the submission process for this class, as well as to make it easier to grade, we have decided to use github to store all code related to your assignment. Here is the process that you will use to submit your homework. We will also go over this submission process in class to make sure that everyone understands all of the submission processes.</p>
+<p>Much of the homework that you will have in this class will involve a programming assignment of some sort. In order to streamline the submission process for this class, as well as to make it easier to grade, we have decided to use github to store all code related to your assignment. Here is the process that you will use to submit your homework. We will also go over this submission process in class to make sure that everyone understands all of the submission processes.</p>
 <div id="create-a-repository" class="section level3">
 <h3>1. Create a repository</h3>
 <p>Each time an assignment is released, it will be made available via a link that will be sent out email and posted on sakai under the assignments tab. Once you have received the link, click on it and it should create your own repository with the starter code and instructions for the assignment. It should look something like this:</p>
-<div class="figure">
-<img src="assets/create_repository.png" />
-
-</div>
+<p><img src="assets/create_repository.png" /></p>
 <p>Afterwards, you should now have access to a repository for you to access the homework code and assignments. Modify this code to complete the assignment and use the git workflow to submit your changes to the remote repository (We will cover this in class).</p>
 </div>
 <div id="submit-your-commit-hash-to-sakai" class="section level3">
 <h3>2. Submit your commit hash to Sakai</h3>
 <p>When you feel that you are finished with your assignment, you will need to submit what is known as your “commit hash” to sakai. When you feel that you are finished, go to your remote repository on github and click on the commit button:</p>
-<div class="figure">
-<img src="assets/commit.png" />
-
-</div>
+<p><img src="assets/commit.png" /></p>
 <p>Then, click the clipboard, (or the hash itself and copy the full hash) and paste that hash into the Sakai submisison box.</p>
-<div class="figure">
-<img src="assets/hash.png" />
-
-</div>
+<p><img src="assets/hash.png" /></p>
 <p>If you do not do this, we will take the last commit as of the deadline. If you are submitting late (see the Syllabus for late policy), please submit the hash that you would like us to grade at.</p>
 </div>
 </div>

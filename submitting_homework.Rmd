@@ -1,6 +1,6 @@
 ## Programming Assignments
 
-Most of the homework that you will have in this class will involve a programming assignment of some sort. In order to streamline the submission process for this class, as well as to make it easier to grade, we have decided to use github to store all code related to your assignment. Here is the process that you will use to submit your homework. We will also go over this submission process in class to make sure that everyone understands all of the submission processes.
+Much of the homework that you will have in this class will involve a programming assignment of some sort. In order to streamline the submission process for this class, as well as to make it easier to grade, we have decided to use github to store all code related to your assignment. Here is the process that you will use to submit your homework. We will also go over this submission process in class to make sure that everyone understands all of the submission processes.
 
 ### 1. Create a repository 
 

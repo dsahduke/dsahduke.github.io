@@ -3,9 +3,9 @@ title: "Instructor Information"
 ---
 
 ```{r, echo=FALSE}
-instructors <- c("Xiling Shen", "Michael Gao", "Nick Giroux", "Anders Dohlman")
-emails <- c("xiling.shen@duke.edu", "michael.gao@duke.edu", "nicholas.giroux@duke.edu", "anders.dohlman@duke.edu")
-role <- c("Professor", "Instructor", "TA", "TA")
+instructors <- c("Xiling Shen", "Michael Gao", "Kyle Lafata", "Anders Dohlman", "Fanjie Kong")
+emails <- c("xiling.shen@duke.edu", "michael.gao@duke.edu", "kyle.lafata@duke.edu", "anders.dohlman@duke.edu", "fanjie.kong@duke.edu")
+role <- c("Professor", "Instructor", "Instructor", "TA", "TA")
 
 display_table <- data.frame(cbind(instructors, emails, role))
 names(display_table) <- c("Instructor", "Email", "Role")
@@ -13,13 +13,13 @@ knitr::kable(display_table)
 ```
 
 ### Class Times: 
-**Tuesdays and Thursdays 3:05-4:20PM**
+**Tuesdays and Thursdays 4:40-5:55PM**
 
 ### Class Location:
 **Hudson Hall 208**
 
 ### Office Hours:
-Office hours will be held **Monday and Wednesday, 6-7PM in Fitzpatrick 1411**
+Times for office hours will be announced at a later time
 
 ## Course Logistics
 ### Prerequisites
@@ -31,14 +31,14 @@ An understanding of basic calculus is required. We will mostly be discussing thi
 All texts used in this course will be provided. There are no required textbooks.  
 
 ### Software 
-We will be using Github as the primary way to submit homework in this class. If you do not have a github account, please create one at http://www.github.com.
+We will be using Github as the primary way to submit programming assignments in this class. If you do not have a github account, please create one at http://www.github.com.
 
 You can find all of the installation instructions for software necessary for the course here:
 
  * [SOFTWARE INSTALL INSTRUCTIONS](https://github.com/dsahduke/software_install_instructions)
 
 ### Communications
-Communication will be done primarily through Sakai. We will also send email updates about important announcements. In addition to this, we will have a Piazza site. The name for the course on Piazza is BME 590-09: Special Topics: Data Science and Health. You will receive an invite if you are registered for the course. If you do not receive an invite, please let us know.
+Communication will be done primarily through Sakai. We will also send email updates about important announcements. In addition to this, we will have a Piazza site. The name for the course on Piazza is BME 590L-003. You will receive an invite if you are registered for the course. If you do not receive an invite, please let us know.
 
 Sakai will be used for assignment submission (in part - click on the 'How to Submit Homework' tab to learn more) and grade management. Piazza will be a place to have discussions and ask questions of the instructors/TAs.
 
