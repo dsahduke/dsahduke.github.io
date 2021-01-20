@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -22,6 +22,15 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -69,9 +78,8 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
+
 
 <style type = "text/css">
 .main-container {
@@ -85,7 +93,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -190,8 +197,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -236,6 +241,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -248,20 +254,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -320,19 +323,9 @@ $(document).ready(function () {
 <h2>Github</h2>
 <p>If you do not have a github account, please sign up for one on <a href="https://www.github.com">https://www.github.com</a>. We will be using github as our main way to distribute and complete assignments.</p>
 </div>
-<div id="piazza" class="section level2">
-<h2>Piazza</h2>
-<p>You should receive an invite to the Piazza page for this course shortly after the course begins. Please make sure that you create an account. Piazza will be the main way that you can ask questions about the course material to instructors, TAs, or fellow students. Take some time to familiarize yourself with how the website works so we can avoid any further confusion down the line. Here are some general guidelines to follow:</p>
-<div id="public-questions" class="section level3">
-<h3>Public questions:</h3>
-<p>On Piazza, you may ask two types of questions (Public &amp; Private). Public questions are for anything about the course content, policy, problem sets, etc that any student may be interested in knowing the answer. Please use public questions by default, as we prioritize our limited TA and instructor time answering public questions first, because the entire class can benefit from seeing the answer. As a student, <strong>YOU ARE ENCOURAGED TO ANSWER QUESTIONS!</strong> If you know the answer, or can provide extra information, feel free to edit the “student answer” portion of a post.</p>
-<p>If you do not wish to share your name with your classmates in connection with a question, you may choose to ask the question “anonymously”. Please note that the INSTRUCTORS can see your name, you are only anonymous to your classmates. [We will do our best not to use your names in our responses]</p>
-</div>
-<div id="private-questions" class="section level3">
-<h3>Private questions:</h3>
-<p>Private questions are used when you have an issue that is specific to you, such as a question about a grade, that other students would not benefit from. Also, we ask that you NOT post code or solutions to problems publicly, so if you need to ask a question about a bit of code that you are working on for a project or problem set, you should post that privately to only the instructors.</p>
-<p>In addition to using piazza, we will have office hours. We will send out the schedule for office hours when we set them.</p>
-</div>
+<div id="slack" class="section level2">
+<h2>Slack</h2>
+<p>You should receive an invite to the slack workspace for this course shortly after the course begins. Please make sure that you create an account. Slack will be the main way that you can ask questions about the course material to instructors and fellow students. Take some time to familiarize yourself with how slack works if you have not used it before. so we can avoid any further confusion down the line. In general, messages in default channels will be visible to everyone in the course. If you have a general question (for example about homework/due dates/lecture), please post your questions in the designated channel. Do not ask questions about your specific implementation. Please direct message one of the instructors in this case.</p>
 </div>
 <div id="mimic-iii-and-physionet" class="section level2">
 <h2>MIMIC-III and Physionet</h2>
@@ -341,7 +334,7 @@ $(document).ready(function () {
 </div>
 
 <br></br>
-<p>Copyright &copy; 2018 Michael Gao. All rights reserved.</p>
+<p>Copyright &copy; 2021 Michael Gao. All rights reserved.</p>
 
 
 
@@ -351,7 +344,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -359,6 +352,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

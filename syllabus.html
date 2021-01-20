@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -22,6 +22,15 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -69,9 +78,8 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
+
 
 <style type = "text/css">
 .main-container {
@@ -85,7 +93,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -190,8 +197,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -236,6 +241,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -248,20 +254,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -326,34 +329,19 @@ $(document).ready(function () {
 <td align="left"><a href="mailto:michael.gao@duke.edu" class="email">michael.gao@duke.edu</a></td>
 <td align="left">Instructor</td>
 </tr>
-<tr class="odd">
-<td align="left">Kyle Lafata</td>
-<td align="left"><a href="mailto:kyle.lafata@duke.edu" class="email">kyle.lafata@duke.edu</a></td>
-<td align="left">Instructor</td>
-</tr>
-<tr class="even">
-<td align="left">Anders Dohlman</td>
-<td align="left"><a href="mailto:anders.dohlman@duke.edu" class="email">anders.dohlman@duke.edu</a></td>
-<td align="left">TA</td>
-</tr>
-<tr class="odd">
-<td align="left">Fanjie Kong</td>
-<td align="left"><a href="mailto:fanjie.kong@duke.edu" class="email">fanjie.kong@duke.edu</a></td>
-<td align="left">TA</td>
-</tr>
 </tbody>
 </table>
 <div id="class-times" class="section level3">
 <h3>Class Times:</h3>
-<p><strong>Tuesdays and Thursdays 4:40-5:55PM</strong></p>
+<p><strong>Tuesdays and Thursdays 3:30-4:45PM</strong></p>
 </div>
 <div id="class-location" class="section level3">
 <h3>Class Location:</h3>
-<p><strong>Hudson Hall 208</strong></p>
+<p><strong>ONLINE ONLY</strong> This course will be held online only. DukeHub may list a location for in-person instruction, but please ignore this. You will be able to reacht he zoom link via sakai and a passcode will be provided.</p>
 </div>
 <div id="office-hours" class="section level3">
 <h3>Office Hours:</h3>
-<p>Times for office hours will be announced at a later time</p>
+<p>Times for office hours will be announced at a later time / by appointment</p>
 </div>
 <div id="course-logistics" class="section level2">
 <h2>Course Logistics</h2>
@@ -376,7 +364,7 @@ $(document).ready(function () {
 </div>
 <div id="communications" class="section level3">
 <h3>Communications</h3>
-<p>Communication will be done primarily through Sakai. We will also send email updates about important announcements. In addition to this, we will have a Piazza site. The name for the course on Piazza is BME 590L-003. You will receive an invite if you are registered for the course. If you do not receive an invite, please let us know.</p>
+<p>Communication will be done primarily through Sakai. We will also send email updates about important announcements. In addition, we will have a slack channel for you to ask questions and discuss things among classmates. The link to the slack for this semester will be posted in Sakai.</p>
 <p>Sakai will be used for assignment submission (in part - click on the ‘How to Submit Homework’ tab to learn more) and grade management. Piazza will be a place to have discussions and ask questions of the instructors/TAs.</p>
 </div>
 <div id="grading" class="section level3">
@@ -387,6 +375,7 @@ $(document).ready(function () {
 <li>20% Midterm Project</li>
 <li>30% Final Project</li>
 </ul>
+<p>We reserve the right to modify this slightly as te course plays out. Ify ou have any concerns about your grade, please do not hesitate to reach out to oneo f us and we will address them.</p>
 </div>
 <div id="late-work-policy" class="section level3">
 <h3>Late Work Policy</h3>
@@ -413,11 +402,9 @@ $(document).ready(function () {
 <h2>Course Schedule</h2>
 <p>This course schedule is subject to change, but we will notify everyone in advance of any changes. Please note that <strong>the source of truth for due dates is Sakai</strong>. Check Sakai under the assignments tab to make sure you have the correct due date.</p>
 </div>
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR9cHLs2OafQOQhO_jFSlGezjex_oZ-hWgDbvEzHAi8RqNqy1wnT5L_O8wEQvrqWooiwq3Uop0PzOAo/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="800"></iframe>
-
 
 <br></br>
-<p>Copyright &copy; 2018 Michael Gao. All rights reserved.</p>
+<p>Copyright &copy; 2021 Michael Gao. All rights reserved.</p>
 
 
 
@@ -427,7 +414,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -435,6 +422,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

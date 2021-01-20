@@ -3,9 +3,9 @@ title: "Instructor Information"
 ---
 
 ```{r, echo=FALSE}
-instructors <- c("Xiling Shen", "Michael Gao", "Kyle Lafata", "Anders Dohlman", "Fanjie Kong")
-emails <- c("xiling.shen@duke.edu", "michael.gao@duke.edu", "kyle.lafata@duke.edu", "anders.dohlman@duke.edu", "fanjie.kong@duke.edu")
-role <- c("Professor", "Instructor", "Instructor", "TA", "TA")
+instructors <- c("Xiling Shen", "Michael Gao")
+emails <- c("xiling.shen@duke.edu", "michael.gao@duke.edu")
+role <- c("Professor", "Instructor")
 
 display_table <- data.frame(cbind(instructors, emails, role))
 names(display_table) <- c("Instructor", "Email", "Role")
@@ -13,13 +13,14 @@ knitr::kable(display_table)
 ```
 
 ### Class Times: 
-**Tuesdays and Thursdays 4:40-5:55PM**
+**Tuesdays and Thursdays 3:30-4:45PM**
 
 ### Class Location:
-**Hudson Hall 208**
+**ONLINE ONLY**
+This course will be held online only. DukeHub may list a location for in-person instruction, but please ignore this. You will be able to reacht he zoom link via sakai and a passcode will be provided.
 
 ### Office Hours:
-Times for office hours will be announced at a later time
+Times for office hours will be announced at a later time / by appointment
 
 ## Course Logistics
 ### Prerequisites
@@ -38,7 +39,7 @@ You can find all of the installation instructions for software necessary for the
  * [SOFTWARE INSTALL INSTRUCTIONS](https://github.com/dsahduke/software_install_instructions)
 
 ### Communications
-Communication will be done primarily through Sakai. We will also send email updates about important announcements. In addition to this, we will have a Piazza site. The name for the course on Piazza is BME 590L-003. You will receive an invite if you are registered for the course. If you do not receive an invite, please let us know.
+Communication will be done primarily through Sakai. We will also send email updates about important announcements. In addition, we will have a slack channel for you to ask questions and discuss things among classmates. The link to the slack for this semester will be posted in Sakai.
 
 Sakai will be used for assignment submission (in part - click on the 'How to Submit Homework' tab to learn more) and grade management. Piazza will be a place to have discussions and ask questions of the instructors/TAs.
 
@@ -49,7 +50,8 @@ The final grade for the class will be determined from the following constituents
  * 20% Midterm Project 
  * 30% Final Project 
 	 
-	 
+We reserve the right to modify this slightly as te course plays out. Ify ou have any concerns about your grade, please do not hesitate to reach out to oneo f us and we will address them.
+
 ### Late Work Policy  
 Late assignments will be penalized 10% it is turned in within 24 hours after the due date, 20% if between 24 hours and 48 hours, and will not be accepted afterwards. 
 

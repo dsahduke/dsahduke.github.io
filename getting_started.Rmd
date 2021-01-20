@@ -16,30 +16,9 @@ Please make sure that you install the software noted in the link above as soon a
 
 If you do not have a github account, please sign up for one on [https://www.github.com](https://www.github.com). We will be using github as our main way to distribute and complete assignments. 
 
-## Piazza
+## Slack
 
-You should receive an invite to the Piazza page for this course shortly after the course begins. Please make sure that you create an account. Piazza will be the main way that you can ask questions about the course material to instructors, TAs, or fellow students. Take some time to familiarize yourself with how the website works so we can avoid any further confusion down the line. Here are some general guidelines to follow:
-
-### Public questions:
-
-On Piazza, you may ask two types of questions (Public & Private).  Public questions are for anything 
-about the course content, policy, problem sets, etc that any student may be interested in knowing the 
-answer. Please use public questions by default, as we prioritize our limited TA and instructor time 
-answering public questions first, because the entire class can benefit from seeing the answer. 
-As a student, **YOU ARE ENCOURAGED TO ANSWER QUESTIONS!** If you know the answer, or 
-can provide extra information, feel free to edit the “student answer” portion of a post.
-
-If you do not wish to share your name with your classmates in connection with a question, you may 
-choose to ask the question “anonymously”. Please note that the INSTRUCTORS can see your name, 
-you are only anonymous to your classmates. [We will do our best not to use your names in our responses]
-
-### Private questions:
-Private questions are used when you have an issue that is specific to you, such as a question about a 
-grade, that other students would not benefit from. Also, we ask that you NOT post code or solutions to 
-problems publicly, so if you need to ask a question about a bit of code that you are working on for a 
-project or problem set, you should post that privately to only the instructors.
-
-In addition to using piazza, we will have office hours. We will send out the schedule for office hours when we set them.
+You should receive an invite to the slack workspace for this course shortly after the course begins. Please make sure that you create an account. Slack will be the main way that you can ask questions about the course material to instructors and fellow students. Take some time to familiarize yourself with how slack works if you have not used it before. so we can avoid any further confusion down the line. In general, messages in default channels will be visible to everyone in the course. If you have a general question (for example about homework/due dates/lecture), please post your questions in the designated channel. Do not ask questions about your specific implementation. Please direct message one of the instructors in this case.
 
 
 ## MIMIC-III and Physionet
